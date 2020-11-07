@@ -4,6 +4,7 @@ A Blender Addon that will let you make a texture for a minecraft skin!!
 
 # How to use:
 
+### video tutorial comming soon
 
 1. Select the object you want to add the material too
 
