@@ -1,3 +1,6 @@
+# THIS CODE IS UNDER THE Apache License 2.0 LICENSE
+# to know more, please look here: https://github.com/BreadcrumbIsTaken/MCSkinerBoi/blob/main/LICENSE
+
 import bpy
 
 bl_info = {
