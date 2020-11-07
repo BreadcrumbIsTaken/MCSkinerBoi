@@ -9,7 +9,7 @@ bl_info = {
     "description": "Quickly add and change a Minecraft Skin for any (i think) Minecraft Rig!",
     "category": "Breadcrumb",
     "support": "COMMUNITY",
-    
+    "tracker_url": "https://github.com/BreadcrumbIsTaken/MCSkinerBoi/issues"
 }
 
 
