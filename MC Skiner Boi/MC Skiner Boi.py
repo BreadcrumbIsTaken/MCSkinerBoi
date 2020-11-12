@@ -1,6 +1,3 @@
-# THIS CODE IS UNDER THE Apache License 2.0 LICENSE
-# to know more, please look here: https://github.com/BreadcrumbIsTaken/MCSkinerBoi/blob/main/LICENSE
-
 import bpy
 
 bl_info = {
@@ -8,20 +5,18 @@ bl_info = {
     "author": "Breadcrumb",
     "version": (0, 1),
     "blender": (2, 90, 1),
-    "location": "3D View Port ~> Right Pannel (N) ~> Breadcrumb ~> MC Skiner Boi",
+    "location": "Properties ~> Materials ~> MC Skiner Boi",
     "description": "Quickly add and change a Minecraft Skin for any (i think) Minecraft Rig!",
     "category": "Breadcrumb",
-    "support": "COMMUNITY",
-    "tracker_url": "https://github.com/BreadcrumbIsTaken/MCSkinerBoi/issues"
 }
 
 
 class BREADCRUMB_PT_mcskinerboimain(bpy.types.Panel):
     bl_label = "MC Skiner Boi"
     bl_idname = "BREADCRUMB_PT_MCSkinerBoi"
-    bl_space_type = "VIEW_3D"
-    bl_region_type = "UI"
-    bl_category = "Breadcrumb"
+    bl_space_type = 'PROPERTIES'
+    bl_region_type = 'WINDOW'
+    bl_context = "material"
         
     def draw(self, context):
         layout = self.layout
